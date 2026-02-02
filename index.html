@@ -50,15 +50,21 @@
 
         /* Css universal selector */
         *{
-            border: 10px solid #000 
+            border: 10px solid #000;
+           
         }
 
-
+        /* Group/combinational selector */
+               
+        div,span#a1,span.b1,a[href="https://www.google.com"]{
+            display: inline-block;
+        }
+          
 
     </style>
 </head>
 <body>
-    <div>KISHAN VISHWKARMA</div>
+    <div>KISHAN VISHWAKARMA</div>
     <span id="a1">Css id selector</span>
     <span class="b1">Css class selector</span>
     <a href="https://www.google.com">Css attribute selector</a>
